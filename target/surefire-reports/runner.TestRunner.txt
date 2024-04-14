@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 164.39 s <<< FAILURE! - in runner.TestRunner
+runner.TestRunner.runScenario["Login with valid email and invalid password", "Login Functionality"](5)  Time elapsed: 10.392 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentails_mismatch(Login.java:106)
+	at ✽.User should get a proper warning message about credentails mismatch(file:///C:/Users/DELL/eclipse-workspace/CucumberWorkspace/TutorialsNinjaCucumberProject/src/test/resources/features/Login.feature:30)
+
